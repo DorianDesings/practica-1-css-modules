@@ -4,7 +4,7 @@ const App = () => {
 	return (
 		<div className='container'>
 			<Card
-				src='/public/images/icon-sedans.svg'
+				src='/images/icon-sedans.svg'
 				alt='Sedans'
 				color='orange'
 				name='SEDANS'
@@ -12,14 +12,14 @@ const App = () => {
 				for cruising in the city or on your next road trip.'
 			/>
 			<Card
-				src='/public/images/icon-suvs.svg'
+				src='/images/icon-suvs.svg'
 				alt='Suvs'
 				color='darkcyan'
 				name='SUVS'
 				text='Take an SUV for its spacious interior, power, and versality. Perfect for your next family vacation and off-road adventures.'
 			/>
 			<Card
-				src='/public/images/icon-luxury.svg'
+				src='/images/icon-luxury.svg'
 				alt='Luxury'
 				color='darkblue'
 				name='LUXURY'

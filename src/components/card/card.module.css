@@ -1,0 +1,66 @@
+.card {
+	width: 247px;
+	height: 400px;
+	padding: 50px;
+	border-radius: 15px;
+	color: white;
+}
+
+.card-title {
+	font-family: 'Big Shoulders Display', bold;
+	font-size: 2.25rem;
+}
+
+.card-text {
+	text-align: left;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+
+.button {
+	background-color: white;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 0.875rem;
+	padding: 15px 35px;
+	border: 2px solid white;
+	border-radius: 2.5rem;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.button.orange:hover,
+.button.darkcyan:hover,
+.button.darkblue:hover {
+	background-color: transparent;
+	color: white;
+}
+
+.button.orange {
+	color: orange;
+	background-color: white;
+}
+
+.button.darkcyan {
+	color: darkcyan;
+	background-color: white;
+}
+
+.button.darkblue {
+	color: midnightblue;
+	background-color: white;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.darkcyan {
+	background-color: darkcyan;
+}
+
+.darkblue {
+	background-color: midnightblue;
+}
